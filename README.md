@@ -1,3 +1,3 @@
 # IMCV
-Master’s Computer Vision 22/23
+International Master’s in Computer Vision
 
