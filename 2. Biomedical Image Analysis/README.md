@@ -5,12 +5,9 @@ This directory contains code, documentation, and experimental results for the Bi
 
 ## 📚 Module Overview
 
-The BMIA module focuses on the practical application of computer vision, pattern recognition, and deep learning techniques to medical and biological imaging modalities (e.g., OCT, MRI, CT).
-
-Medical image pre-processing, classical feature engineering, semantic segmentation, class imbalance handling, model evaluation, and cross-validation strategies.
+The BMIA module focuses on the practical application of computer vision, pattern recognition, and deep learning techniques to medical and biological imaging modalities (e.g., OCT, MRI, CT). Including: medical image pre-processing, classical feature engineering, semantic segmentation, class imbalance handling, model evaluation, or cross-validation strategies.
 
 More details: [https://imcv.eu/guide/2023-2024/bmia/](https://imcv.eu/guide/2023-2024/bmia/)
-
 
 
 ## 📁 Cases Overview
