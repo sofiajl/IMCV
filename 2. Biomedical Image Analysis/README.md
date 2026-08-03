@@ -10,7 +10,7 @@ The BMIA module focuses on the practical application of computer vision, pattern
 More details: [https://imcv.eu/guide/2023-2024/bmia/](https://imcv.eu/guide/2023-2024/bmia/)
 
 
-## 📁 Cases Overview
+## 🔬 Practical Use Cases
 
 ### 🔹 Case 1: DME Image Classification Methodology
 * **Objective:** Automatic classification of Optical Coherence Tomography (OCT) images to detect the presence or absence of Diabetic Macular Edema (DME).
