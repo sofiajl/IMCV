@@ -7,7 +7,7 @@ This directory contains lab assignments, deep learning implementations, and rese
 
 Core Topics: Facial Affective Computing, Spatio-Temporal Sequence Classification, Recurrent Networks, Video Transformers, and Single-Image 3D Skeleton Reconstruction.
 
-More details: [HAR Module Guide](https://imcv.eu/guide/2023-2024/har/)
+More details: https://imcv.eu/guide/2023-2024/har/
 
 ## 🧪 Laboratory Assignments
 ### 🎭 Lab 2: Facial Emotion Recognition
