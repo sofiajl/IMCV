@@ -4,7 +4,7 @@
 This directory contains my individual implementations and experimental notebooks for the laboratory cases in the **Advance Image Processing Analysis** module.
 
 
-## 📖 Course Overview & Objectives
+## 📚 Module Overview
 
 This unit addressed advanced methodologies in digital image processing and analysis. The core objectives include:
 - Advanced digital image denoising
