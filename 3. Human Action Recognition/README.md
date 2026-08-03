@@ -14,9 +14,9 @@ More details: [HAR Module Guide](https://imcv.eu/guide/2023-2024/har/)
 
 Focuses on evaluating and fine-tuning ResNet-50 v2 backbones for 7-class facial expression classification under real-world dataset constraints, including severe class imbalance, data augmentation strategies, loss weighting schemes, and over/under-sampling techniques.
 
-* **01_FER-2013-Data-Analysis.ipynb**: Exploratory data analysis (EDA) covering pixel-level dataset inspection, 7-class distribution analysis, image sample visualization, and pre-processing pipeline setup.
+* **01_data_analysis.ipynb**: Exploratory data analysis (EDA) covering pixel-level dataset inspection, 7-class distribution analysis, image sample visualization, and pre-processing pipeline setup.
 * **02_1 to 02_6 ResNet50V2 Iterative Experiments**: Systematic model training across 6 experimental setups—testing data augmentation (`ImageDataGenerator`), macro/weighted metrics, class-weighting, baseline (no augmentation), and synthetic resampling.
-* **03_ResNet50v2_Inference_Analysis.ipynb**: Comparative analysis across experiments, prediction evaluations, confusion matrices, and failure mode inspection.
+* **03_pred_visualization.ipynb**: Comparative analysis across experiments, prediction evaluations, confusion matrices, and failure mode inspection.
 * **Lab2_Emotion_Recognition.pdf**: Detailed report summarizing the ResNet-50 v2 pre-activation bottleneck architecture, hyperparameter choices, data augmentation specs, and comparative performance across all 6 experiments.
 
 ### 🎬 Lab 3: Human Action Recognition in Video
