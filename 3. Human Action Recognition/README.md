@@ -1,4 +1,4 @@
-# Human Action Recognition (HAR)
+# 3. Human Action Recognition (HAR)
 
 This directory contains lab assignments, deep learning implementations, and research summaries covering Facial Emotion Recognition, Temporal Action Classification (CNN+RNN & Video Transformers), and 3D Human Pose Estimation literature review.
 
