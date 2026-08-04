@@ -5,45 +5,45 @@ Welcome to the **IMCV** repository! This repository serves as a personal archive
 
 ## 📌 Repository Overview
 
-This repository houses original code implementations, Jupyter Notebooks, experimental pipelines, datasets, and theoretical analysis across different modules of the IMCV program, spanning low-level image processing, biomedical vision, human activity recognition, hardware instrumentation, and my master's thesis.
+This repository houses a collection of computer vision projects (code implementations, Jupyter Notebooks, experimental pipelines, and theoretical analysis) across different modules of the IMCV program, biomedical vision, human activity recognition, digital filtering, motion detection, optical flow estimation, single-object tracking, multi-object tracking, facial recognition login system, as part of a collaboration within a company, and my master's thesis.
 
 
 ## 📂 Modules & Directory Structure
 
 ```text
 IMCV/
-├── 1. Advance Image Processing Analysis/                                # Filtering, segmentation, spectral analysis
-├── 2. Biomedical Image Analysis/                                        # Medical imaging, segmentation, modality processing
-├── 3. Human Action Recognition/                                         # Video analysis, action classification, temporal models
-├── 4. Instrumentation and Processing for Biomedical Applications/       # Signal/image acquisition, hardware-software pipelines
-├── 5. Visual Recognition/                                               # Deep learning, visual recognition, applied projects
-├── 6. Practicum - Facial recognition login system/                      # End-to-end biometric facial authentication system
-├── 7. Master's thesis - Ordinal Methods for Monocular Depth Estimation/ # Master's thesis research & code
-└── README.md                                                            # Main repository documentation
+├── 1. Advance Image Processing Analysis/                                
+├── 2. Biomedical Image Analysis/                                        
+├── 3. Human Action Recognition/                                         
+├── 4. Instrumentation and Processing for Biomedical Applications/       
+├── 5. Visual Recognition/                                               
+├── 6. Practicum - Facial recognition login system/                      
+├── 7. Master's thesis - Ordinal Methods for Monocular Depth Estimation/ 
+└── README.md                                                            
 ```
 
 ## 📚 **Module Summaries**
 
 1️⃣ **Advance Image Processing Analysis**
-Focuses on classical and mathematical digital image processing techniques. Key topics include Fourier transform analysis, spatial/frequency domain filtering, noise restoration, morphological operators, and advanced image segmentation.
+Implementations of classical variational, probabilistic, and modern generative methodologies for digital image restoration and segmentation. Core techniques cover Total Variation (ROF) denoising, Perona-Malik anisotropic diffusion, Markov Random Fields via Graph Cuts, Active Contours, super-resolution reconstruction, and deep learning-based colorization.
 
 2️⃣ **Biomedical Image Analysis**
-Dedicated to computer vision applied to clinical and biological domain data. Covers processing of medical imaging modalities (MRI, CT, Ultrasound, DICOM data), organ and lesion segmentation, and multimodal image registration.
+Practical computer vision and deep learning pipelines applied to medical modalities, specifically OCT scans. Features a 126-feature extraction and selection pipeline (LBP, GLCM, Gabor, HOG+PCA with Random Forest) for Diabetic Macular Edema (DME) detection, alongside deep semantic segmentation benchmarks evaluating Attention U-Net and LinkNet architectures for pathological fluid region extraction.
 
 3️⃣ **Human Action Recognition**
-Covers video processing and temporal modeling to understand human activities. Includes dense optical flow estimation, pose tracking, and spatio-temporal deep learning architectures (3D CNNs, RNNs/LSTMs, Transformers).
+End-to-end deep learning frameworks spanning affective computing, video classification, and 3D structural reconstruction. Includes fine-tuned ResNet-50 v2 models handling severe class imbalance for 7-class facial emotion recognition, spatio-temporal sequence modeling comparing 2D CNN+RNN baselines against Video Transformers, and a literature review on 2D-to-3D skeletal pose estimation.
 
 4️⃣ **Instrumentation and Processing for Biomedical Applications**
-Combines physical acquisition hardware concepts with digital processing. Focuses on sensor modeling, noise reduction in physical signals, A/D conversion artifacts, and end-to-end biomedical instrumentation pipelines.
+Numerical analysis and digital image processing tools engineered for non-invasive clinical diagnostics. Key implementations cover color-space transformations for quantifying bulbar conjunctiva redness levels and a modular Python pipeline for automated aortic cross-section border detection, strut candidate selection (Hough transforms), and structural distance estimations.
 
 5️⃣ **Visual Recognition**
-Explores deep learning techniques for image understanding. Covers Convolutional Neural Network (CNN) architectures, transfer learning, object detection frameworks, semantic segmentation, and performance optimization.
+Video processing, spatial-temporal filtering, and visual object tracking algorithms. Covers FIR/IIR temporal filtering, MOG/KNN adaptive background modeling, dense optical flow evaluation (Lucas-Kanade, Farnebäck, RLOF) on the MPI Sintel benchmark, and real-time Multi-Object Tracking (MOT) using the SORT algorithm evaluated on MOT20.
 
 6️⃣ **Practicum - Facial Recognition Login System**
-Development of a complete biometric authentication pipeline. Integrates face detection, alignment, feature embedding extraction, real-time matching, and anti-spoofing techniques into a functional login software system.
+Development of a complete biometric authentication system developed in collaboration with a company. Evaluates synthetic-to-real domain transfer by training deep embedding networks (DenseNet-121 backbone) on synthetic face data (DCFace) and evaluating identity verification performance on real face datasets (CASIA-WebFace) using standard Triplet Loss, Semi-Hard Triplet Mining, and ArcFace loss functions.
 
 7️⃣ **Master's Thesis - Ordinal Methods for Monocular Depth Estimation**
-Master's thesis research exploring ordinal relationships for predicting 3D depth maps from single 2D images. Contains custom model implementations, loss function formulations, comparative benchmarks, and validation results.
+Research repository introducing novel spatial regularization loss terms (1-Side, 2-Sides, Multi-Scale) to penalize non-adjacent ordinal bin predictions across neighboring pixels in Monocular Depth Estimation (MDE). Features DeepLabv3 with a ResNet-101 backbone under Spacing-Increasing Discretization (SID) and proposes OrdinalMapping, a probabilistic neural module that learns to map discrete class distributions into smooth continuous depth outputs.
 
 
 ## 🛠️ Setup & Requirements
