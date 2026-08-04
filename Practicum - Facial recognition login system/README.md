@@ -35,9 +35,10 @@ The project implements and compares three main deep feature learning architectur
 │ Triplet Loss │             │  Semi-Hard   │             │   ArcFace    │
 │ (Euclidean)  │             │ Triplet Loss │             │   (Margin)   │
 └──────────────┘             └──────────────┘             └──────────────┘
-````
+```
 
 ## 📁 Repository Structure
+```text
 ├── main/
 │   ├── BatchGeneratorArcFace.py             # Custom batch generator for ArcFace training
 │   ├── BatchGeneratorTripletLoss.py         # Custom batch generator producing (Anchor, Positive, Negative) triplets
@@ -51,3 +52,4 @@ The project implements and compares three main deep feature learning architectur
 ├── TripletSemiHard_v2.ipynb                 # Refined iteration of the Semi-Hard Triplet Loss training pipeline
 ├── TripletSemiHard-RealData.ipynb           # Real-world testing notebook evaluating Semi-Hard models on personal/real images
 └── pred_experiments.ipynb                   # Experimental notebook for feature embedding visualization and predictions
+```
