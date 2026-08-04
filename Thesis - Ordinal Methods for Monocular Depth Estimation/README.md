@@ -2,8 +2,6 @@
 
 This directory contains the official implementation of the paper **"Ordinal Methods for Monocular Depth Estimation"** by Sofía Jimeno Lucía, supervised by Ricardo P. M. Cruz and Jaime S. Cardoso (FEUP / INESC TEC Porto).
 
----
-
 ## 📌 Overview
 
 Monocular Depth Estimation (MDE) is key to 3D scene understanding. While discretizing continuous depth into ordinal bins improves robustness over direct regression, predicted depth maps can suffer from spatial inconsistency and abrupt artifacts.
@@ -11,8 +9,6 @@ Monocular Depth Estimation (MDE) is key to 3D scene understanding. While discret
 This work introduces:
 1. **Spatial Regularization Terms** (1-Side, 2-Sides, and Multi-Scale variants) added to ordinal loss functions to enforce local prediction smoothness across neighboring pixels.
 2. **Probabilistic Neural Mapping (`OrdinalMapping`)**, a lightweight neural module that learns to convert predicted class probability distributions back into continuous depth values, outperforming standard expected value formulations.
-
----
 
 ## ⚙️ Architecture & Method
 
@@ -23,7 +19,6 @@ This work introduces:
   - **2-Sides**: Regularizes across both directions (left/right, top/bottom).
   - **Multi-Scale**: Applies regularization across downsampled resolutions ($0.5\times$, $0.25\times$) to enforce coarse and fine spatial coherence.
 
----
 
 ## 📁 Repository Structure
 
