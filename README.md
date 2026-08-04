@@ -5,7 +5,7 @@ Welcome to the **IMCV** repository! This repository serves as a personal archive
 
 ## 📌 Repository Overview
 
-This repository houses a collection of computer vision projects (code implementations, Jupyter Notebooks, experimental pipelines, and theoretical analysis) across different modules of the IMCV program, biomedical vision, human activity recognition, digital filtering, motion detection, optical flow estimation, single-object tracking, multi-object tracking, facial recognition login system, as part of a collaboration within a company, and my master's thesis.
+This repository houses a collection of computer vision projects (code implementations, Jupyter Notebooks, experimental pipelines, and theoretical analysis) across different modules of the IMCV program: biomedical vision, human activity recognition, digital filtering, motion detection, optical flow estimation, single-object tracking, multi-object tracking, facial recognition login system, as part of a collaboration within a company, and my master's thesis.
 
 
 ## 📂 Modules & Directory Structure
